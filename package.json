@@ -1,0 +1,25 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pwnkdm/Url-Shortner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pwnkdm/Url-Shortner/issues"
+  },
+  "homepage": "https://github.com/Pwnkdm/Url-Shortner#readme",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.3",
+    "short-unique-id": "^5.0.3"
+  }
+}
